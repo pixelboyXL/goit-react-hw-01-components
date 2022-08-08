@@ -1,6 +1,6 @@
 import data from 'base/data';
 import friends from 'base/friends';
-import transactions from 'base/transactions';
+// import transactions from 'base/transactions';
 import user from 'base/user';
 import { Profile } from 'components/Profile/Profile';
 import { Statistics } from 'components/Statistics/Statistics';
