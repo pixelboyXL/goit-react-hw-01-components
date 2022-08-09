@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pixelboyXL/goit-react-hw-01-components.git/static/css/main.7acaea2f.css",
-    "main.js": "/pixelboyXL/goit-react-hw-01-components.git/static/js/main.b5d13ee7.js",
-    "index.html": "/pixelboyXL/goit-react-hw-01-components.git/index.html",
-    "main.7acaea2f.css.map": "/pixelboyXL/goit-react-hw-01-components.git/static/css/main.7acaea2f.css.map",
-    "main.b5d13ee7.js.map": "/pixelboyXL/goit-react-hw-01-components.git/static/js/main.b5d13ee7.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.7acaea2f.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.8be0d47a.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.7acaea2f.css.map": "/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
+    "main.8be0d47a.js.map": "/goit-react-hw-01-components/static/js/main.8be0d47a.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.b5d13ee7.js"
+    "static/js/main.8be0d47a.js"
   ]
 }
