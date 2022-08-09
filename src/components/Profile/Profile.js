@@ -1,33 +1,43 @@
 import PropTypes from 'prop-types';
+import { Box } from 'components/Box';
+import { User, Name, Info, UserStatisticsList, UserStatisticsItem, SpanName, SpanInfo } from 'components/Profile/Profile.styled';
 
 export const Profile = ({ userData: { username, tag, location, avatar, stats: { followers, views, likes } } }) => {
     return (
-        <div className="profile">
-            <div className="description">
+        <Box
+            display="flex"
+            flexDirection="column"
+            width="250px"
+            bg="maybeYellow"
+            border="normal"
+            borderRadius="sm"
+            borderColor="almostDarkGreen"
+        >
+            <User>
                 <img
                     src={avatar}
                     alt={username}
-                    className="avatar"
+                    width="130"
                 />
-                <p className="name">{username}</p>
-                <p className="tag">@{tag}</p>
-                <p className="location">{location}</p>
-            </div>
-            <ul className="stats">
-                <li>
-                    <span className="label">Followers</span>
-                    <span className="quantity">{followers}</span>
-                </li>
-                <li>
-                    <span className="label">Views</span>
-                    <span className="quantity">{views}</span>
-                </li>
-                <li>
-                    <span className="label">Likes</span>
-                    <span className="quantity">{likes}</span>
-                </li>
-            </ul>
-    </div>);
+                <Name>{username}</Name>
+                <Info>@{tag}</Info>
+                <Info>{location}</Info>
+            </User>
+            <UserStatisticsList>
+                <UserStatisticsItem>
+                    <SpanName>Followers</SpanName>
+                    <SpanInfo>{followers}</SpanInfo>
+                </UserStatisticsItem>
+                <UserStatisticsItem>
+                    <SpanName>Views</SpanName>
+                    <SpanInfo>{views}</SpanInfo>
+                </UserStatisticsItem>
+                <UserStatisticsItem>
+                    <SpanName>Likes</SpanName>
+                    <SpanInfo>{likes}</SpanInfo>
+                </UserStatisticsItem>
+            </UserStatisticsList>
+    </Box>);
 };
 
 Profile.propTypes = {

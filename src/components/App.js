@@ -1,18 +1,24 @@
 import data from 'base/data';
 import friends from 'base/friends';
-// import transactions from 'base/transactions';
+import transactions from 'base/transactions';
 import user from 'base/user';
+import { GlobalStyle } from './GlobalStyle'
 import { Profile } from 'components/Profile/Profile';
 import { Statistics } from 'components/Statistics/Statistics';
 import { FriendList } from 'components/Friend/FriendList';
+import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
+import { Box } from './Box'
+
 
 export const App = () => {
   return (
-    <div>
+    <Box as='main' display="flex" flexWrap="wrap" alignItems="center" justifyContent="space-evenly">
       <Profile userData={user} />
       <Statistics title="Upload stats" stats={data} />
-      <FriendList friendsData={friends}/>
-    </div>
+      <FriendList friendsData={friends} />
+      <TransactionHistory items={transactions} />
+      <GlobalStyle />
+    </Box>
   );
 };
 
