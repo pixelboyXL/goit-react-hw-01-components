@@ -12,6 +12,7 @@ export const Profile = ({ userData: { username, tag, location, avatar, stats: { 
             border="normal"
             borderRadius="sm"
             borderColor="almostDarkGreen"
+            boxShadow="shadow"
         >
             <User>
                 <img

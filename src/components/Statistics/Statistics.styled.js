@@ -26,17 +26,17 @@ export const StatisticsListItem = styled.li`
             case '.docx':
                 return `${p.theme.colors.ohSoOrange}`;
             case '.pdf':
-                return `${p.theme.colors.accent}`;
+                return `${p.theme.colors.purpleIsh}`;
             case '.mp3':
                 return `${p.theme.colors.notPink}`;
             case '.psd':
-                return `${p.theme.colors.primary}`;
+                return `${p.theme.colors.kindaBlue}`;
             default:
-                return `${p.theme.colors.secondary}`;
+                return `${p.theme.colors.clearlyWhite}`;
         }
     }};
     & span {
-        color: ${p => p.theme.colors.white};
+        color: ${p => p.theme.colors.clearlyWhite};
         font-size: ${p => p.theme.fontSizes.m};
         line-height: ${p => p.theme.lineHeights.body};
         font-weight: ${p => p.theme.fontWeights.normal};

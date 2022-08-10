@@ -1,17 +1,15 @@
 export const theme = {
     colors: {
-        black: '#000',
-        white: '#fff',
-        text: '#2a2a2a',
-        primary: '#07c',
-        secondary: '#05a',
-        accent: '#609',
-        muted: '#f6f6f6',
+        justBlack: '#000',
+        clearlyWhite: '#fff',
+        almostWhite: '#e2e5e5',
+        kindaBlue: '#07c',
+        purpleIsh: '#609',
+        notPink: '#cf948b',
+        ohSoOrange: '#ff9f33',
         almostDarkGreen: '#082911',
         maybeYellow: '#decea9',
         midnightGrey: '#686868',
-        ohSoOrange: '#ff9f33',
-        notPink: '#cf948b'
     },
     space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
     fonts: {
@@ -28,6 +26,7 @@ export const theme = {
     },
     fontWeights: {
         normal: 400,
+        medium: 500,
         bold: 700,
     },
     lineHeights: {
@@ -45,4 +44,7 @@ export const theme = {
         lg: '16px',
         round: '50%',
     },
+    shadows: {
+        shadow: '0 4px 4px rgba(0, 0, 0, .25)',
+    }
 };

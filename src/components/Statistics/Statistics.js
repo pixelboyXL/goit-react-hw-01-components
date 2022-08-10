@@ -10,7 +10,9 @@ export const Statistics = ({ title, stats }) => {
             border="normal"
             borderRadius="sm"
             borderColor="almostDarkGreen"
-            textAlign="center">
+            textAlign="center"
+            boxShadow="shadow"
+        >
             {title && <StatisticsTitle>{title}</StatisticsTitle>}
             <StatisticsList>
                 {stats.map((stat) => {

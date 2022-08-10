@@ -5,7 +5,7 @@ import user from 'base/user';
 import { GlobalStyle } from './GlobalStyle'
 import { Profile } from 'components/Profile/Profile';
 import { Statistics } from 'components/Statistics/Statistics';
-import { FriendList } from 'components/Friend/FriendList';
+import { FriendList } from 'components/FriendList/FriendList';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
 import { Box } from './Box'
 
