@@ -13,7 +13,13 @@ import { Box } from './Box'
 export const App = () => {
   return (
     <Box as='main' display="flex" flexWrap="wrap" alignItems="center" justifyContent="space-evenly">
-      <Profile userData={user} />
+      <Profile
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friendsData={friends} />
       <TransactionHistory items={transactions} />
