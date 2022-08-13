@@ -7,7 +7,7 @@ export const FriendsList = styled.ul`
     gap: ${p => p.theme.space[3]}px;
 `;
 
-export const FriendsListItemStyle = styled.li`
+export const FriendsListDivStyle = styled.div`
     display: flex;
     jsutify-content: center;
     align-items: center;

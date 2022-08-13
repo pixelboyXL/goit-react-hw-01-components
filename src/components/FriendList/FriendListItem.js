@@ -1,11 +1,11 @@
-import { FriendsListItemStyle } from 'components/FriendList/FriendList.styled';
+import { FriendsListDivStyle } from 'components/FriendList/FriendList.styled';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
     return (
-        <FriendsListItemStyle isOnline={isOnline}>
+        <FriendsListDivStyle isOnline={isOnline}>
             <span></span>
             <img src={avatar} alt="User avatar" width="48" />
             <p>{name}</p>
-        </FriendsListItemStyle>
+        </FriendsListDivStyle>
     );
 };
