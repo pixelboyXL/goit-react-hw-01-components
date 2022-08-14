@@ -2,12 +2,12 @@ import data from 'base/data';
 import friends from 'base/friends';
 import transactions from 'base/transactions';
 import user from 'base/user';
-import { GlobalStyle } from './GlobalStyle'
+import { GlobalStyle } from './GlobalStyle';
 import { Profile } from 'components/Profile/Profile';
 import { Statistics } from 'components/Statistics/Statistics';
 import { FriendList } from 'components/FriendList/FriendList';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
-import { Box } from './Box'
+import { Box } from './Box';
 
 
 export const App = () => {
