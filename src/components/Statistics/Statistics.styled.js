@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StatisticsTitle = styled.h2`
     text-align: center;
     padding: ${p => p.theme.space[5]}px;
+    color: ${p => p.theme.colors.almostDarkGreen};
 `;
 
 export const StatisticsList = styled.ul`

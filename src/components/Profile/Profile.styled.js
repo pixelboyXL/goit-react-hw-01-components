@@ -9,7 +9,7 @@ export const Name = styled.p`
     margin-top: ${p => p.theme.space[4]}px;
     font-weight: ${p => p.theme.fontWeights.bold};
     line-height: ${p => p.theme.lineHeights.body};
-    color: ${p => p.theme.colors.justBlack};
+    color: ${p => p.theme.colors.almostDarkGreen};
 `;
 
 export const Info = styled.p`
@@ -46,7 +46,7 @@ export const SpanName = styled.span`
     font-weight: ${p => p.theme.fontWeights.bold};
     line-height: ${p => p.theme.lineHeights.body};
     font-size: ${p => p.theme.fontSizes.m};
-    color: ${p => p.theme.colors.justBlack};
+    color: ${p => p.theme.colors.almostDarkGreen};
 `;
 
 export const SpanInfo = styled.span`

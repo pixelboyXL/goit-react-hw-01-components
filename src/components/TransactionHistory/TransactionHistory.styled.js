@@ -14,6 +14,7 @@ export const Table = styled.table`
         background-color: ${p => p.theme.colors.maybeYellow};
         border: ${p => p.theme.borders.normal};
         border-color:  ${p => p.theme.colors.almostDarkGreen};
+        color: ${p => p.theme.colors.almostDarkGreen};
     }
     td {
         font-size: ${p => p.theme.fontSizes.m};

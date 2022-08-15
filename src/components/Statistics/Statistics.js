@@ -20,7 +20,7 @@ export const Statistics = ({ title, stats }) => {
             return (
                 <StatisticsListItem key={id}>
                     <span>{label}</span>
-                    <span>{percentage}</span>
+                    <span>{percentage}%</span>
                 </StatisticsListItem>)
             })}
         </StatisticsList>

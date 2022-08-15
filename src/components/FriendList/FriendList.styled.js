@@ -30,5 +30,10 @@ export const FriendsListDivStyle = styled.div`
         margin-left: ${p => p.theme.space[3]}px;
         font-weight: ${p => p.theme.fontWeights.medium};
         font-size: ${p => p.theme.fontSizes.m};
+        color: ${p => {
+            return p.isOnline 
+            ?`${p.theme.colors.almostDarkGreen}`
+            :`${p.theme.colors.notPink}`;
+        }};
     }
 `;
