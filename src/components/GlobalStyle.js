@@ -22,4 +22,19 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0; 
     }
+    body::-webkit-scrollbar {
+        width: 20px;
+    }
+    body::-webkit-scrollbar-track {
+        background-color: transparent;
+        margin-top: ${p => p.theme.space[4]}px;
+        margin-bottom: ${p => p.theme.space[4]}px;
+        opacity: 0;
+		border-radius: ${p => p.theme.radii.md};
+    }
+    body::-webkit-scrollbar-thumb {
+        background-color: ${p => p.theme.colors.reallyBisque};
+		border-radius: ${p => p.theme.radii.md};
+		border: ${p => `${p.theme.borders.medium} ${p.theme.colors.almostDarkGreen}`};
+    }
 `;

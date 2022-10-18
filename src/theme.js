@@ -10,6 +10,9 @@ export const theme = {
         almostDarkGreen: '#082911',
         maybeYellow: '#decea9',
         midnightGrey: '#686868',
+        reallyBisque: 'bisque',
+        cherryRed: '#6d031c',
+        tastyCoffe: '#a79086',
     },
     space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
     fonts: {
@@ -36,6 +39,7 @@ export const theme = {
     borders: {
         none: 'none',
         normal: '2px solid',
+        medium: '6px solid',
     },
     radii: {
         none: '0',
@@ -45,6 +49,15 @@ export const theme = {
         round: '50%',
     },
     shadows: {
-        shadow: '0 4px 4px rgba(0, 0, 0, .25)',
-    }
+        shadowFirst: '0 4px 4px rgba(0, 0, 0, .25)',
+        shadowSecond: '0px 5px 10px bisque',
+    },
+    transition: {
+        cubicBezier: 'all 250ms cubic-bezier(0.4, 0, 0.2, 1)',
+    },
+    transform: {
+        scaleFirst: 'scale(1.07)',
+        scaleSecond: 'scale(1.1)',
+        scaleThird: 'scale(1.15)',
+    },
 };
