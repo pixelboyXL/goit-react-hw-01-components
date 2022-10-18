@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const User = styled.div`
-    padding: ${p => p.theme.space[4]}px;
     text-align: center;
+    padding: ${p => p.theme.space[4]}px;
 `;
 
 export const Name = styled.p`

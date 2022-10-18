@@ -9,7 +9,6 @@ export const FriendsList = styled.ul`
 
 export const FriendsListDivStyle = styled.div`
     display: flex;
-    jsutify-content: center;
     align-items: center;
     padding: ${p => p.theme.space[3]}px;
     background-color: ${p => p.theme.colors.maybeYellow};
@@ -17,8 +16,8 @@ export const FriendsListDivStyle = styled.div`
     border-radius: ${p => p.theme.radii.sm};
     box-shadow: ${p => p.theme.shadows.shadow};
     span {
-        width: 12px;
-        height: 12px;
+        width: ${p => p.theme.space[3]}px;
+        height: ${p => p.theme.space[3]}px;
         border-radius: ${p => p.theme.radii.round};
         background-color: ${p => {
             return p.isOnline 
